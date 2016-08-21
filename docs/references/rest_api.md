@@ -3,7 +3,12 @@
 All operations are performed using http GET
 
 <dl>
-    <dt><h3>GET /api/pointsbyvibe</h3></dt>
+    <dt>
+        <h3 id="get-apipointsbyvibe">
+            GET /api/pointsbyvibe
+            <a class="headerlink" href="#get-apipointsbyvibe" title="Permalink to this definition">¶</a>
+        </h3>
+    </dt>
     <dd>This endpoint is intended for mapping applications. It takes a bounding box and a vibe and returns a list of points.</dd>
     <dd><b>Operators:</b></dd>
     <dd>
@@ -25,7 +30,91 @@ All operations are performed using http GET
         </dl>
         <dl>
             <dt>vibe</dt>
-            <dd>one of the following: [healthy_eats,active_living,photo_op,organic,culture,chinatown,edgy_cool,up_and_coming,mainstream,food_trucks,coffee_lovers,fine_dining,the_arts,theater,galleries,architecture,attractions,monuments,dance,sports_bars,live_music,outdoors,yoga,majestic_views,date_night,sports,excursions,educational,latin_corridor,nature,parks,water,mountains,healthy,family,sights,romantic,hip,nightlife,charming,foodie,lgbt]</dd>
+            <dd>one of the following vibe categories or sub-categories:
+                <ul>
+                    <li>events</li>
+                    <li>now</li>
+                    <li>
+                        hip 
+                        <ul>
+                            <li>edgy_cool</li>
+                             <li>up_and_coming</li>
+                            <li>mainstream</li>
+                        </ul>
+                    </li>
+                    <li>
+                        foodie 
+                        <ul>
+                            <li>food_trucks</li>
+                            <li>coffee_lovers</li>
+                            <li>organic</li>
+                            <li>fine_dining"
+                        </ul>
+                    </li>
+                    <li>
+                        sights
+                        <ul>
+                            <li>attractions</li>
+                            <li>monuments</li>
+                            <li>photo_op"
+                        </ul>
+                    </li>
+                    <li>
+                        the_arts 
+                        <ul>
+                            <li>theater</li>
+                            <li>galleries</li>
+                            <li>architecture"
+                        </ul>
+                    </li>
+                    <li>
+                        nightlife
+                        <ul>
+                            <li>dance</li>
+                            <li>sports_bars</li>
+                            <li>live_music"
+                        </ul>
+                    </li> 
+                    <li>
+                        healthy
+                        <ul>
+                            <li>active_living</li>
+                            <li>healthy_eats</li>
+                            <li>outdoors</li>
+                            <li>yoga"
+                        </ul>
+                    </li> 
+                    <li>love
+                        <ul>
+                            <li>majestic_views</li>
+                            <li>date_night"
+                        </ul>
+                    </li> 
+                    <li>
+                        family 
+                        <ul>
+                            <li>sports</li>
+                            <li>excursions</li>
+                            <li>educational"
+                        </ul>
+                    </li>
+                    <li>
+                        culture 
+                        <ul>
+                            <li>lgbt</li>
+                            <li>latin_corridor</li>
+                            <li>chinatown"
+                        </ul>
+                    </li>
+                    <li>
+                        nature 
+                        <ul>
+                            <li>parks</li>
+                            <li>water"
+                        </ul>
+                    </li>
+                </ul>
+            </dd>
         </dl>
         <dl>
             <dt>apikey</dt>
@@ -37,7 +126,17 @@ All operations are performed using http GET
         </dl>
         <dl>
             <dt>d (optional)</dt>
-            <dd>day of the week, one of:  [mon,tue,wed,thu,fri,sat,sun]</dd>
+            <dd>day of the week, one of:  
+                <ul>
+                    <li>mon</li>
+                    <li>tue</li>
+                    <li>wed</li>
+                    <li>thu</li>
+                    <li>fri</li>
+                    <li>sat</li>
+                    <li>sun</li>
+                </ul>
+            </dd>
         </dl>
         <dl>
             <dt>s (optional)</dt>
@@ -98,7 +197,12 @@ All operations are performed using http GET
 </dl>
 
 <dl>
-    <dt><h3>GET /api/pointdetail</h3></dt>
+    <dt>
+        <h3 id="get-apipointdetail">
+            GET /api/pointdetail
+            <a class="headerlink" href="#get-apipointdetail" title="Permalink to this definition">¶</a>
+        </h3>
+    </dt>
     <dd>This endpoint returns the vibe rating of a point.</dd>
     <dd><b>Operators:</b></dd>
     <dd>
@@ -188,7 +292,12 @@ All operations are performed using http GET
 </dl>
 
 <dl>
-    <dt><h3>GET /api/getevents</h3></dt>
+    <dt>
+        <h3 id="get-apigetevents">
+            GET /api/getevents
+            <a class="headerlink" href="#get-apigetevents" title="Permalink to this definition">¶</a>
+        </h3>
+    </dt>
     <dd>This endpoint returns event listings.</dd>
     <dd><b>Operators:</b></dd>
     <dd>

@@ -1,7 +1,5 @@
 # Three Minute Google Maps Integration
 
-## Default Controls tutorial
-
 Starting from scratch, you can easily add a google map and integrate Spatial visualizations in just a few minutes.
 
 Through this tutorial, we assume that you are starting out with an empty directory, which we will denote as the root directory of your project.
@@ -9,7 +7,7 @@ Through this tutorial, we assume that you are starting out with an empty directo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FYvUwB40IUw" frameborder="0" allowfullscreen></iframe>
 <br/>
 
-### step 1 - Create Base HTML File
+## step 1 - Create Base HTML File
 
 Create a base HTML file called `index.html` in the root directory of your project with the following code:
 
@@ -35,7 +33,7 @@ project
 ```
 
 
-### step 2 - Add A Google Map
+## step 2 - Add A Google Map
 
 Add a div in the body of your `index.html` file. This is where the map will go.
 
@@ -103,7 +101,7 @@ Modify the opening body tag to call `initialize` when it loads
 </html>
 ```
 
-### step 3 - Add Spatial Javascript Library to Project
+## step 3 - Add Spatial Javascript Library to Project
 
 Create a directory called `js/`.
 <br/>
@@ -120,7 +118,7 @@ project
    +--spatialGoogleMaps.js
 ```
 
-### step 4 - Integrate Spatial Visualizations
+## step 4 - Integrate Spatial Visualizations
 
 Add the Spatial Javascript Library in the head of your `index.html`. Make sure it is placed after the google maps script.
 
