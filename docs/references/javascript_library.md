@@ -37,7 +37,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
     <dd>
         <dl>
             <dt>apikey</dt>
-            <dd>obtained through the <a href="http://spatial.ai/pricing/">Spacial website</a></dd>
+            <dd>obtained through the <a href="http://spatial.ai/pricing/">Spatial website</a></dd>
         </dl>
         <dl>
             <dt> map </dt>
