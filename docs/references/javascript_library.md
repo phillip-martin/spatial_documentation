@@ -42,7 +42,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                             <li>food_trucks</li>
                             <li>coffee_lovers</li>
                             <li>organic</li>
-                            <li>fine_dining"
+                            <li>fine_dining
                         </ul>
                     </li>
                     <li>
@@ -50,7 +50,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                         <ul>
                             <li>attractions</li>
                             <li>monuments</li>
-                            <li>photo_op"
+                            <li>photo_op
                         </ul>
                     </li>
                     <li>
@@ -58,7 +58,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                         <ul>
                             <li>theater</li>
                             <li>galleries</li>
-                            <li>architecture"
+                            <li>architecture
                         </ul>
                     </li>
                     <li>
@@ -66,7 +66,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                         <ul>
                             <li>dance</li>
                             <li>sports_bars</li>
-                            <li>live_music"
+                            <li>live_music
                         </ul>
                     </li> 
                     <li>
@@ -75,13 +75,13 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                             <li>active_living</li>
                             <li>healthy_eats</li>
                             <li>outdoors</li>
-                            <li>yoga"
+                            <li>yoga
                         </ul>
                     </li> 
                     <li>love
                         <ul>
                             <li>majestic_views</li>
-                            <li>date_night"
+                            <li>date_night
                         </ul>
                     </li> 
                     <li>
@@ -89,7 +89,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                         <ul>
                             <li>sports</li>
                             <li>excursions</li>
-                            <li>educational"
+                            <li>educational
                         </ul>
                     </li>
                     <li>
@@ -97,14 +97,14 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
                         <ul>
                             <li>lgbt</li>
                             <li>latin_corridor</li>
-                            <li>chinatown"
+                            <li>chinatown
                         </ul>
                     </li>
                     <li>
                         nature 
                         <ul>
                             <li>parks</li>
-                            <li>water"
+                            <li>water
                         </ul>
                     </li>
                 </ul>
