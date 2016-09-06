@@ -12,17 +12,17 @@ Through this tutorial, we assume that you are starting out with an empty directo
 Create a base HTML file called `index.html` in the root directory of your project with the following code:
 
 **index.html:**
-```html
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<head>
-
-</head>
-<body>
-
-</body>
-</html>
+```
+    <!DOCTYPE html>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <head>
+    
+    </head>
+    <body>
+    
+    </body>
+    </html>
 ```
 
 **resulting project structure:**
@@ -139,6 +139,7 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
         loadSpatialwControls(
             '3twDDLNaJ3szwvsf3ca5OXFQGbutYdzW',
             map,
+            'google'
             {
                 'Hip': 'Up_and_coming',
                 'Nightlife': 'Dance,Live_music'
@@ -177,6 +178,7 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
             loadSpatialwControls(
                 '3twDDLNaJ3szwvsf3ca5OXFQGbutYdzW',
                 map,
+                'google',
                 {
                     'Hip': 'Up_and_coming',
                     'Nightlife': 'Dance,Live_music'
