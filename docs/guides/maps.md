@@ -139,7 +139,7 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
         loadSpatialwControls(
             '3twDDLNaJ3szwvsf3ca5OXFQGbutYdzW',
             map,
-            'google'
+            'google',
             {
                 'Hip': 'Up_and_coming',
                 'Nightlife': 'Dance,Live_music'
