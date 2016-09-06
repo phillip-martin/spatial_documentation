@@ -8,7 +8,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
 <dl>
     <dt>
         <h3 id="func-loadSpatialwControls">
-            loadSpatialwControls(<b>apikey</b>, <b>map</b>, <b>vibes</b>, <b>colors</b>, <b>cssText</b>)
+            loadSpatialwControls(<b>apikey</b>, <b>map</b>, <b>mapType</b>, <b>colors</b>, <b>vibes</b>, <b>cssText</b>)
             <a class="headerlink" href="#func-loadSpatialwControls" title="Permalink to this definition">¶</a>
         </h3>
     </dt>
@@ -21,6 +21,15 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
         <dl>
             <dt> map </dt>
             <dd> google.maps.Map object </dd>
+        </dl>
+        <dl>
+            <dt> mapType </dt>
+            <dd> The type of map which spatial is being embedded on; current options are:
+                <ul>
+                    <li>'google'</li>
+                    <li>'mapquest'</li>
+                </ul>
+            </dd>
         </dl>
         <dl>
             <dt> vibes </dt>
@@ -123,7 +132,7 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
 <dl>
     <dt>
         <h3 id="func-loadSpatial">
-            loadSpatial(<b>apikey</b>,<b>map</b>,<b>colors</b>)
+            loadSpatial(<b>apikey</b>,<b>map</b>, <b>mapType</b>,<b>colors</b>)
             <a class="headerlink" href="#func-loadSpatial" title="Permalink to this definition">¶</a>
         </h3>
     </dt>
@@ -136,6 +145,15 @@ The Spatial Javascript Library can be downloaded from our [website](http://spati
         <dl>
             <dt> map </dt>
             <dd> google.maps.Map object </dd>
+        </dl>
+        <dl>
+            <dt> mapType </dt>
+            <dd> The type of map which spatial is being embedded on; current options are:
+                <ul>
+                    <li>'google'</li>
+                    <li>'mapquest'</li>
+                </ul>
+            </dd>
         </dl>
         <dl>
             <dt> colors (optional) </dt>
