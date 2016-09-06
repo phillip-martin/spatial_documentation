@@ -13,16 +13,16 @@ Create a base HTML file called `index.html` in the root directory of your projec
 
 **index.html:**
 ```
-    <!DOCTYPE html>
-    <html lang="en">
-    <meta charset="UTF-8">
-    <head>
-    
-    </head>
-    <body>
-    
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+
+</head>
+<body>
+
+</body>
+</html>
 ```
 
 **resulting project structure:**
@@ -141,12 +141,12 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
             map,
             'google',
             {
-                'Hip': 'Up_and_coming',
-                'Nightlife': 'Dance,Live_music'
-            },
-            {
                 'Hip': 'red',
                 'Nightlife': '#FF8A95'
+            },
+            {
+                'Hip': 'Up_and_coming',
+                'Nightlife': 'Dance,Live_music'
             }
         );
     }
@@ -180,12 +180,12 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
                 map,
                 'google',
                 {
-                    'Hip': 'Up_and_coming',
-                    'Nightlife': 'Dance,Live_music'
-                },
-                {
                     'Hip': 'red',
                     'Nightlife': '#FF8A95'
+                },
+                {
+                    'Hip': 'Up_and_coming',
+                    'Nightlife': 'Dance,Live_music'
                 }
             );
         }
