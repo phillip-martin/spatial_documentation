@@ -123,7 +123,7 @@ project
 Add the Spatial Javascript Library in the head of your `index.html`. Make sure it is placed after the google maps script.
 
 ```html
-<script type="text/javascript" src="js/spatialGoogleMaps.js" ></script>
+<script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.0.js" ></script>
 ```
 
 In the `initialize` function, call [`loadSpatialwControls`](/references/javascript_library/).
@@ -137,7 +137,7 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
         });
 
         loadSpatialwControls(
-            '3twDDLNaJ3szwvsf3ca5OXFQGbutYdzW',
+            '<YOUR_SPATIAL_API_KEY>',
             map,
             'google',
             {
@@ -161,10 +161,10 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
 <head>
 
     <!-- google maps library -->
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBEI_r_Kc9UeQAiFtJN_H5EvMWPgYtw2Mo&v=3&libraries=visualization"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEYv=3&libraries=visualization"></script>
 
     <!-- Spatial Library -->
-    <script type="text/javascript" src="js/spatialGoogleMaps.js" ></script>
+    <script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.0.js" ></script>
 
     <!-- embedded script -->
     <script>
@@ -176,7 +176,7 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
             });
 
             loadSpatialwControls(
-                '3twDDLNaJ3szwvsf3ca5OXFQGbutYdzW',
+                '<YOUR_SPATIAL_API_KEY>',
                 map,
                 'google',
                 {

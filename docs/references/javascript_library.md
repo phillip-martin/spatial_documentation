@@ -1,7 +1,16 @@
 # Javascript Library Reference
 Our data can be loaded onto any Google map with just a few lines of code and our Javascript library. You can either use our GUI interface or create your own.
 
-The Spatial Javascript Library can be downloaded from our [website](http://spatial.ai/pricing/)
+## Linking the library
+
+**link to the unminified library**
+```html
+<script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.0.js" ></script>
+```
+**link to the minified library**
+```html
+<script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.0.min.js" ></script>
+```
 
 ## Methods
 
