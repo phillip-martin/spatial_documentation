@@ -41,6 +41,10 @@ Our data can be loaded onto any Google map with just a few lines of code and our
             </dd>
         </dl>
         <dl>
+            <dt> colors (optional) </dt>
+            <dd> dictionary of colors to use for each vibe (if you want to override the default colors) </dd>
+        </dl>
+        <dl>
             <dt> vibes </dt>
             <dd> dictionary of vibe categories and sub-categories; we can visualize any number of things on request; current options are: 
                 <ul>
@@ -127,10 +131,6 @@ Our data can be loaded onto any Google map with just a few lines of code and our
                     </li>
                 </ul>
             </dd>
-        </dl>
-        <dl>
-            <dt> colors (optional) </dt>
-            <dd> dictionary of colors to use for each vibe (if you want to override the default colors) </dd>
         </dl>
         <dl>
             <dt> cssText (optional)  </dt>
