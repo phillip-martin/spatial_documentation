@@ -458,3 +458,179 @@ All operations are performed using http GET
         </dd>
     </dd>
 </dl>
+
+
+<dl>
+    <dt>
+        <h3 id="get-query">
+            GET /api/query
+            <a class="headerlink" href="#get-query" title="Permalink to this definition">¶</a>
+        </h3>
+    </dt>
+    <dd>This endpoint processes a query string, such as 'show me hip bars in pittsburgh' or 'events in detroit monday'</dd>
+    <dd><b>Operators:</b></dd>
+    <dd>
+        <dl>
+            <dt>q</dt>
+            <dd>query string
+        </dl>
+        <dl>
+            <dt>apikey</dt>
+            <dd>provided key</dd>
+        </dl>
+        <dl>
+            <dt>swlat</dt>
+            <dd>southwest latitude of the bounding box</dd>
+        </dl>
+        <dl>
+            <dt>swlng</dt>
+            <dd>southwest longitude of the bounding box</dd>
+        </dl>
+        <dl>
+            <dt>nelat</dt>
+            <dd>northeast latitude of the bounding box</dd>
+        </dl>
+        <dl>
+            <dt>nelng</dt>
+            <dd>northeast longitude of the bounding box</dd>
+        </dl>
+    </dd>
+    <dd><b>Response</b>
+    </dd>
+    <dd>Returns a dictionary with the following
+        <dl>
+            <dt>poi</dt>
+            <dd>array of points of interest; events or venues</dd>
+        </dl>
+        <dl>
+            <dt>hex</dt>
+            <dd>array of regions matching combined vibes in the query</dd>
+        </dl>
+        <dl>
+            <dt>vibes</dt>
+            <dd>list of vibes processed from query string</dd>
+        </dl>
+        <dl>
+            <dt>recenter</dt>
+            <dd>coordinates to recenter the map</dd>
+        </dl>
+    </dd>
+    <dd><b>Example Query:</b></dd>
+    <dd>
+        <pre><code>GET https://spatial.ai/api/query?q=show%20me%20hip%20bars%20in%20pittsburgh&apikey=YOUR_API_KEY
+        </code></pre>
+    </dd>
+    <dd><b>Example Response:</b></dd>
+        <dd>
+            <pre><code>
+{  
+    "poi":[  
+        {  
+            "name":"Cattivo",
+            "lat":40.472509,
+            "lng":-79.961687,
+            "rating":4,
+            "tags":[  
+                "bars",
+                "music venues"
+            ],
+            "type":"venue"
+        },
+        {  
+            "name":"New Amsterdam",
+            "lat":40.472148,
+            "lng":-79.959533,
+            "rating":4,
+            "tags":[  
+                "dance clubs",
+                "pubs"
+            ],
+            "type":"venue"
+        },
+        {  
+            "name":"Mister Grooming & Goods",
+            "lat":40.472132,
+            "lng":-79.958813,
+            "rating":4.5,
+            "tags":[  
+                "barbers"
+            ],
+            "type":"venue"
+        },
+        
+        ...
+        
+        {  
+            "name":"Industry Public House",
+            "lat":40.4707662016153,
+            "lng":-79.9603226780891,
+            "rating":3.5,
+            "tags":[  
+                "american (new)",
+                "cocktail bars"
+            ],
+            "type":"venue"
+        },
+        {  
+            "name":"Tender Bar & Kitchen",
+            "lat":40.470578,
+            "lng":-79.960043,
+            "rating":3.5,
+            "tags":[  
+                "american (new)",
+                "cocktail bars"
+            ],
+            "type":"venue"
+        },
+        {  
+            "name":"Hambone's Pub",
+            "lat":40.470474,
+            "lng":-79.960431,
+            "rating":3.5,
+            "tags":[  
+                "pubs",
+                "american (new)"
+            ],
+            "type":"venue"
+        }
+    ],
+    "hex":[  
+        {  
+            "swlat":40.42798792337201,
+            "swlng":-79.9681528346991,
+            "nelat":40.43161115225921,
+            "nelng":-79.96340835811442
+        },
+        {  
+            "swlat":40.42798792337201,
+            "swlng":-79.97764178786844,
+            "nelat":40.43161115225921,
+            "nelng":-79.97289731128376
+        },
+        
+        ...
+        
+        {  
+            "swlat":40.42798792337201,
+            "swlng":-79.97289731128376,
+            "nelat":40.43161115225921,
+            "nelng":-79.9681528346991
+        },
+        {  
+            "swlat":40.42436469448481,
+            "swlng":-79.98238626445311,
+            "nelat":40.42798792337201,
+            "nelng":-79.97764178786844
+        }
+    ],
+    "vibes":[  
+        "hip"
+    ],
+    "recenter":{  
+        "lat":40.436945,
+        "lng":-79.9755245
+    }
+}
+            </code></pre>
+        </dd>
+</dl>
