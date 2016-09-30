@@ -1,9 +1,9 @@
 site_name: Spatial Api
 pages:
   - Home: index.md
+  - Guides:
+    - Getting Started: guides/getting_started.md
   - Reference:
     - Javascript Library: references/javascript_library.md
     - Rest API: references/rest_api.md
-  - Guides:
-    - Online Maps: guides/maps.md
 theme: readthedocs
