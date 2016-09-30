@@ -97,7 +97,7 @@ Open your `index.html` file in your browser. If you see "Oops! Something went wr
 Add the Spatial Javascript Library in the head of your `index.html`. Make sure it is placed after the google maps script.
 
 ```html
-<script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.2.js" ></script>
+<script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.5.min.js" charset="UTF-8" ></script>
 ```
 
 In the `initialize` function, call [`loadSpatialwControls`](/references/javascript_library/). Make sure to replace "YOUR_SPATIAL_API_KEY" in the new function with your own spatial api key.
@@ -139,7 +139,7 @@ In the `initialize` function, call [`loadSpatialwControls`](/references/javascri
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&v=3&libraries=visualization"></script>
 
     <!-- Spatial Library -->
-    <script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.2.js" ></script>
+    <script type="text/javascript" src="https://cdn.spatial.ai/spatial-1.1.5.min.js" charset="UTF-8" ></script>
 
     <!-- embedded script -->
     <script>
